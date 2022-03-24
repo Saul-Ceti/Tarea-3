@@ -208,6 +208,7 @@ void licenciadoEnLenguas::mostrarDatosEspecificos() {
 
 int main() {
 
+	cout << "///////////////////////////Estudiantes/////////////////////////////////" << endl;
 	ingenieroInformatico Alumno1 = ingenieroInformatico("Saul Hernandez", "21310395", "Dr.Perez", 8, 95.3, 7, true);
 	Alumno1.mostrarDatosEspecificos();
 	cout << "////////////////////////////////////////////////////////////////////" << endl;
